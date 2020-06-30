@@ -1,0 +1,6 @@
+framework module Pods_GGZIntegrationDylibPodProject_Example {
+  umbrella header "Pods-GGZIntegrationDylibPodProject_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
