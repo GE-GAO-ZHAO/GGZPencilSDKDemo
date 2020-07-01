@@ -11,6 +11,7 @@
 #endif
 
 #import "SCTRobotPencilParingManager.h"
+#import "SCTRobotPencilParingManager.m"
 #import "RobotNote.h"
 #import "RobotPenDelegate.h"
 #import "RobotPenDevice.h"

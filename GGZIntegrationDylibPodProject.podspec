@@ -7,49 +7,46 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GGZIntegrationDylibPodProject'
-  s.version          = '1.0.0'
-  s.summary          = 'A short description of GGZIntegrationDylibPodProject.'
+    s.name             = 'GGZIntegrationDylibPodProject'
+    s.version          = '1.0.2'
+    s.summary          = 'A short description of GGZIntegrationDylibPodProject.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    TODO: Add long description of the pod here.
+    DESC
+    
+    s.homepage         = 'https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'gegaozhao' => 'gegaozhao1126@gmail.com' }
+    s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '10.0'
+    
+    s.subspec 'RobotPenSDKHeader' do |ss2|
+        ss2.source_files  = 'GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/*.h'
+    end
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-  TODO: Add long description of the pod here.
-  DESC
-
-  s.homepage         = 'https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gegaozhao' => 'gegaozhao1126@gmail.com' }
-  s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-
-  s.subspec 'Libs' do |ss|
-    ss.source_files  = 'GGZIntegrationDylibPodProject/Classes/Libs/*'
-  end
-
-  s.subspec 'RobotPenSDKHeader' do |ss|
-    ss.source_files  = 'GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/*.h'
-  end
-
-  s.subspec 'Core' do |ss|
-    ss.source_files  = 'GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}'
-  end
-
-  # system tbd
-  s.libraries = 'sqlite3.0'
-
-  # .a
-  s.vendored_libraries = 'GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a'
-
-  # arc
-  s.requires_arc = true
-
+    s.subspec 'Libs' do |ss1|
+        ss1.source_files  = 'GGZIntegrationDylibPodProject/Classes/Libs/*.a'
+    end
+    
+    s.public_header_files = 'GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}'
+    
+    # system tbd
+    s.libraries = 'sqlite3.0'
+    
+    # .a
+    s.vendored_libraries = 'GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a'
+    
+    # arc
+    s.requires_arc = true
+    
 end

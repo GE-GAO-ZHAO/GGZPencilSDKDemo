@@ -7,30 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058F232640A9007069C2F4260A035A0F /* RobotPenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDF0593E3C0A3BCD994F4E5061A0819 /* RobotPenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		190B9F17ECE49E5228A4770B5CD5D7BB /* RobotPenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEAF21F422BEC7608D4F718D57FA8ED /* RobotPenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B63F7D7495D3282D8A320E29D6E496D /* RobotPenDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C6A4036796A8A07863C4B9CF5A3145 /* RobotPenDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		388C85CD35A4246FEB17147F6BC0FE4C /* RobotPenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4815614F880394193B9CAEFC968F6A4D /* RobotPenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44EC42C40F3E32CFF542DE3164C7661E /* RobotTrails.h in Headers */ = {isa = PBXBuildFile; fileRef = A95A3C129DBE06C2EB6F30E9327D2AC7 /* RobotTrails.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48C16CED813BA3E7B59122899BFEFAF7 /* GGZIntegrationDylibPodProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E13D92ABA5B26312E338E517106A49 /* GGZIntegrationDylibPodProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6628AA42D7BC93322D9661183AB10AC7 /* libRobotPenSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 29E3C61D88B22AD0F9DEB094447395DA /* libRobotPenSDK.a */; };
-		6ED380469778625FD369E41160140F7B /* RobotPenPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C533DDF2046826A82804EB338A1713 /* RobotPenPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75F56F7D9283D9D7864DB97FF82E5AAB /* RobotVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EE26F7511FB377398F1C24593E5C0F /* RobotVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5403210724DF98210DCC6CD498B7B9 /* libRobotPenSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 0B12AC509E3B342325177057F332BD77 /* libRobotPenSDK.a */; };
+		0FB20681FA470048C9BFE649FF7347BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1E27DF30912453F583DA285B28D0ECFB /* RobotPenDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = BB328D24C976CE0820D3A187E877287A /* RobotPenDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436F51DA2B13DDA41C2F65B9E2880259 /* RobotTrailBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = EB10CA073339F6821D91192B19EA7ABE /* RobotTrailBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D428E173F6F90424FAD69CD97B1FEC /* GGZIntegrationDylibPodProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1F50B7618DDDBBE4151F63DEED6112 /* GGZIntegrationDylibPodProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53653D5D7F54F251CAB5D7E28543B64D /* RobotPenDeviceFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1F43BCBCEA0178D8B75AB23A939E3D /* RobotPenDeviceFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54DBE7318BD6706DFD4B4E9BC7AE70FE /* RobotTrails.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E100310F993792029A1B64779A656B6 /* RobotTrails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A9BDE8227EB592D57388F7DDB65345 /* RobotNote.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDBF897235C43ADAC245AA039F85DE4 /* RobotNote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74056CCF6DF2467D2004FA3DCBC9C559 /* RobotSqlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD87515F6A9B49594905964D090C2499 /* RobotSqlManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		765F3A01403F6BBDE5B17A4BD90171E9 /* Pods-GGZIntegrationDylibPodProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C19F4D67C430E092FC5AE6017E520 /* Pods-GGZIntegrationDylibPodProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A29B6B44AFA79396CAACFD2FB08E579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7C3EB8C12A6569724930D038EE0D8B13 /* GGZIntegrationDylibPodProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D401582D1393289380E873D7EA5A9 /* GGZIntegrationDylibPodProject-dummy.m */; };
-		893008821192ABEBCD712A3B9D721FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8F811AB44E784F5C250ED853F49C9EDC /* RobotTrailBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D86F44D9D54D5655C65EBD17C1D4DBA /* RobotTrailBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE0DA5A366821C1AE1C8725214E9016 /* RobotPenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B844B5DEF5809668ED45A041EC252A /* RobotPenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C5FD3BE869E4DCDEA940F9519B9CBF /* RobotPenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCB6ADDDAAE0BD75190CEC38BC8E450 /* RobotPenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951D72252FEFA1D181117E48A32C1769 /* RobotVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 468F9724A1E7564535E518EE406DE07A /* RobotVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A38133B4C2D59D2E48776A2B180ADDB /* Pods-GGZIntegrationDylibPodProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D613B4CB467C0ACFDF9A1809DFDCC2 /* Pods-GGZIntegrationDylibPodProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C236BC2564DEF53B901D9EB86A513C9A /* SCTRobotPencilParingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5C8C7826D2C4574FAF58F730856A93 /* SCTRobotPencilParingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2B2DD599022FC2F3EBF490F98D95C69 /* RobotNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C844B19B851802FF702E11B9E81E68 /* RobotNote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE46C9B2E263541AD899234C64D6A772 /* RobotPenUtilPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6D83372766573CDC7964047B3364EE /* RobotPenUtilPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEDE162F8946D020BC73CF3EDCA77BB1 /* Pods-GGZIntegrationDylibPodProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A971B4C25097A306DE4ACD90BA9B3B /* Pods-GGZIntegrationDylibPodProject_Example-dummy.m */; };
-		E0BA650A35BEFE50FAC015A0DCA365AF /* RobotPenUtilPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E259FBA59067A53B4C8D0A04BEE358 /* RobotPenUtilPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E190D9C89770A1B72D0AB4F5351C9923 /* RobotPenPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = EED613FD067191CAE5E76F89F977569F /* RobotPenPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAD139EF0CF15D255D77B2278B85E322 /* Pods-GGZIntegrationDylibPodProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54CA1D4DE6D5ECB659408AA845CF4AD /* Pods-GGZIntegrationDylibPodProject_Tests-dummy.m */; };
 		ED54C38C49A090E3366D2B6F99D6C9B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EE0CB8A703705F05E7BE9C4E4756CA46 /* RobotPenDeviceFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BBC5AFB79A59B27C506B210E2E2BFB /* RobotPenDeviceFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F646F15D457D173B94779B1587BC77A2 /* SCTRobotPencilParingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F990A9BB203E1B383AD47ECA8BAC03CA /* SCTRobotPencilParingManager.m */; };
-		FBA42F12C69819F92A77C140666A9E6C /* RobotSqlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B70CE0E104661B1FA64179D9710E0EB /* RobotSqlManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF964C9FC81D17CEAE4681FFF561D726 /* GGZIntegrationDylibPodProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF15FA010F580C7635C1B22F6827D88 /* GGZIntegrationDylibPodProject-dummy.m */; };
+		F83DDA220DEF8C480DD03E38DA4BDDF0 /* RobotPenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E0C492D2B183CC3F8ECA06AC89D9F8 /* RobotPenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,63 +49,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		108C2604BCD64C5D30B747D9D9C6CABB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		04B71F5AF435122A8B1339F6619751F5 /* GGZIntegrationDylibPodProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGZIntegrationDylibPodProject-prefix.pch"; sourceTree = "<group>"; };
+		0B12AC509E3B342325177057F332BD77 /* libRobotPenSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRobotPenSDK.a; path = GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a; sourceTree = "<group>"; };
+		0BD8BC95BF5C2CA8A4D583B8F28B551D /* GGZIntegrationDylibPodProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGZIntegrationDylibPodProject.xcconfig; sourceTree = "<group>"; };
+		0E100310F993792029A1B64779A656B6 /* RobotTrails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotTrails.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotTrails.h; sourceTree = "<group>"; };
 		15A971B4C25097A306DE4ACD90BA9B3B /* Pods-GGZIntegrationDylibPodProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGZIntegrationDylibPodProject_Example-dummy.m"; sourceTree = "<group>"; };
-		1BDF0593E3C0A3BCD994F4E5061A0819 /* RobotPenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenManager.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenManager.h; sourceTree = "<group>"; };
+		1A6D83372766573CDC7964047B3364EE /* RobotPenUtilPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenUtilPoint.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenUtilPoint.h; sourceTree = "<group>"; };
 		1CDEDB49DB214632F39D6FDD0E79DA64 /* Pods-GGZIntegrationDylibPodProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGZIntegrationDylibPodProject_Example.modulemap"; sourceTree = "<group>"; };
 		2689ABCD94F38A353638C378D00838E5 /* Pods-GGZIntegrationDylibPodProject_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGZIntegrationDylibPodProject_Example-Info.plist"; sourceTree = "<group>"; };
-		29E3C61D88B22AD0F9DEB094447395DA /* libRobotPenSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRobotPenSDK.a; path = GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a; sourceTree = "<group>"; };
-		2DEAF21F422BEC7608D4F718D57FA8ED /* RobotPenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDelegate.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDelegate.h; sourceTree = "<group>"; };
 		2EE860A03614A44E4774081C97BD54FB /* Pods-GGZIntegrationDylibPodProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGZIntegrationDylibPodProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31740ADB040DAC186E3F64CCD4450334 /* GGZIntegrationDylibPodProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGZIntegrationDylibPodProject.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B70CE0E104661B1FA64179D9710E0EB /* RobotSqlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotSqlManager.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotSqlManager.h; sourceTree = "<group>"; };
-		3E5C8C7826D2C4574FAF58F730856A93 /* SCTRobotPencilParingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCTRobotPencilParingManager.h; path = GGZIntegrationDylibPodProject/Classes/Core/SCTRobotPencilParingManager.h; sourceTree = "<group>"; };
-		446D401582D1393289380E873D7EA5A9 /* GGZIntegrationDylibPodProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGZIntegrationDylibPodProject-dummy.m"; sourceTree = "<group>"; };
-		4815614F880394193B9CAEFC968F6A4D /* RobotPenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenHeader.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenHeader.h; sourceTree = "<group>"; };
-		51C844B19B851802FF702E11B9E81E68 /* RobotNote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotNote.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotNote.h; sourceTree = "<group>"; };
+		468F9724A1E7564535E518EE406DE07A /* RobotVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotVideo.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotVideo.h; sourceTree = "<group>"; };
+		570AD54676695F24627090CC5CB45D49 /* GGZIntegrationDylibPodProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGZIntegrationDylibPodProject.modulemap; sourceTree = "<group>"; };
 		574B32F0DB8E91BEDC2C71613D0B1181 /* Pods-GGZIntegrationDylibPodProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGZIntegrationDylibPodProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		57C1CBE613E0E6D0DF0B480577BBD144 /* GGZIntegrationDylibPodProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGZIntegrationDylibPodProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		591A7E5B499EE5547909AF75D4238541 /* Pods-GGZIntegrationDylibPodProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGZIntegrationDylibPodProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D86F44D9D54D5655C65EBD17C1D4DBA /* RobotTrailBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotTrailBlock.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotTrailBlock.h; sourceTree = "<group>"; };
+		5A731D518F2231D314C1E2AC3DC33488 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		672BF090D9BB72B836C42C4D866FCEFC /* Pods-GGZIntegrationDylibPodProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGZIntegrationDylibPodProject_Example.release.xcconfig"; sourceTree = "<group>"; };
-		68E13D92ABA5B26312E338E517106A49 /* GGZIntegrationDylibPodProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGZIntegrationDylibPodProject-umbrella.h"; sourceTree = "<group>"; };
-		69C1428A158603E0BF07A27ECF9C792B /* GGZIntegrationDylibPodProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGZIntegrationDylibPodProject.xcconfig; sourceTree = "<group>"; };
-		74C533DDF2046826A82804EB338A1713 /* RobotPenPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenPoint.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenPoint.h; sourceTree = "<group>"; };
 		7923E1F28780444F05382FCD1BB2F154 /* GGZIntegrationDylibPodProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGZIntegrationDylibPodProject.framework; path = GGZIntegrationDylibPodProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0C1195248BC757DEC94DAC935B75FF /* Pods-GGZIntegrationDylibPodProject_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGZIntegrationDylibPodProject_Tests-Info.plist"; sourceTree = "<group>"; };
+		85D85F2AA4277802AB7A602DF2B48FDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8D7A545A882A7834F9B7F0AD4C7C5339 /* Pods-GGZIntegrationDylibPodProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGZIntegrationDylibPodProject_Tests.modulemap"; sourceTree = "<group>"; };
 		96BD1B0E0FCEA077CA6809C7C52AA273 /* Pods_GGZIntegrationDylibPodProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGZIntegrationDylibPodProject_Tests.framework; path = "Pods-GGZIntegrationDylibPodProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C6A4036796A8A07863C4B9CF5A3145 /* RobotPenDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDevice.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDevice.h; sourceTree = "<group>"; };
-		9967634ECA02EEBC47A93F6B14F4E2CB /* GGZIntegrationDylibPodProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGZIntegrationDylibPodProject-Info.plist"; sourceTree = "<group>"; };
+		9D1F50B7618DDDBBE4151F63DEED6112 /* GGZIntegrationDylibPodProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGZIntegrationDylibPodProject-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCB6ADDDAAE0BD75190CEC38BC8E450 /* RobotPenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenHeader.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenHeader.h; sourceTree = "<group>"; };
 		A1E1C59E96F29ECA95009908CF052C14 /* Pods-GGZIntegrationDylibPodProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGZIntegrationDylibPodProject_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A47FB5D26302323C284D8975FC6A5162 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A95A3C129DBE06C2EB6F30E9327D2AC7 /* RobotTrails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotTrails.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotTrails.h; sourceTree = "<group>"; };
 		AA5F85C06F9E62B317DA70DC8AAFEE40 /* Pods_GGZIntegrationDylibPodProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGZIntegrationDylibPodProject_Example.framework; path = "Pods-GGZIntegrationDylibPodProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2EE26F7511FB377398F1C24593E5C0F /* RobotVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotVideo.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotVideo.h; sourceTree = "<group>"; };
+		AD87515F6A9B49594905964D090C2499 /* RobotSqlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotSqlManager.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotSqlManager.h; sourceTree = "<group>"; };
 		B6D082770FE14714F82F3B6A3DD869F3 /* Pods-GGZIntegrationDylibPodProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGZIntegrationDylibPodProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7BBC5AFB79A59B27C506B210E2E2BFB /* RobotPenDeviceFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDeviceFunction.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDeviceFunction.h; sourceTree = "<group>"; };
 		BA11BEADBC17455543A09BE8DDFC8903 /* Pods-GGZIntegrationDylibPodProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGZIntegrationDylibPodProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB328D24C976CE0820D3A187E877287A /* RobotPenDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDevice.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDevice.h; sourceTree = "<group>"; };
+		BBF15FA010F580C7635C1B22F6827D88 /* GGZIntegrationDylibPodProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGZIntegrationDylibPodProject-dummy.m"; sourceTree = "<group>"; };
+		BFDBF897235C43ADAC245AA039F85DE4 /* RobotNote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotNote.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotNote.h; sourceTree = "<group>"; };
 		C54CA1D4DE6D5ECB659408AA845CF4AD /* Pods-GGZIntegrationDylibPodProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGZIntegrationDylibPodProject_Tests-dummy.m"; sourceTree = "<group>"; };
-		D4E259FBA59067A53B4C8D0A04BEE358 /* RobotPenUtilPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenUtilPoint.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenUtilPoint.h; sourceTree = "<group>"; };
+		D6B844B5DEF5809668ED45A041EC252A /* RobotPenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDelegate.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDelegate.h; sourceTree = "<group>"; };
 		D998FA396441D6BE1274B5198D08B01B /* Pods-GGZIntegrationDylibPodProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGZIntegrationDylibPodProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB10CA073339F6821D91192B19EA7ABE /* RobotTrailBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotTrailBlock.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotTrailBlock.h; sourceTree = "<group>"; };
+		EBB10FDE4B8DB0DC6D7DDEA5443E4F85 /* GGZIntegrationDylibPodProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGZIntegrationDylibPodProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EED613FD067191CAE5E76F89F977569F /* RobotPenPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenPoint.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenPoint.h; sourceTree = "<group>"; };
+		F1E0C492D2B183CC3F8ECA06AC89D9F8 /* RobotPenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenManager.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenManager.h; sourceTree = "<group>"; };
 		F1EF452387B736B4F957AF0C8C5632ED /* Pods-GGZIntegrationDylibPodProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGZIntegrationDylibPodProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F30C19F4D67C430E092FC5AE6017E520 /* Pods-GGZIntegrationDylibPodProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGZIntegrationDylibPodProject_Example-umbrella.h"; sourceTree = "<group>"; };
 		F4D613B4CB467C0ACFDF9A1809DFDCC2 /* Pods-GGZIntegrationDylibPodProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGZIntegrationDylibPodProject_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F7915EECE901619EB3D65D39277C3E14 /* GGZIntegrationDylibPodProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGZIntegrationDylibPodProject-prefix.pch"; sourceTree = "<group>"; };
-		F990A9BB203E1B383AD47ECA8BAC03CA /* SCTRobotPencilParingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCTRobotPencilParingManager.m; path = GGZIntegrationDylibPodProject/Classes/Core/SCTRobotPencilParingManager.m; sourceTree = "<group>"; };
+		F654EE5CA3EE992186F22593DA093C86 /* GGZIntegrationDylibPodProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGZIntegrationDylibPodProject-Info.plist"; sourceTree = "<group>"; };
+		FC1F43BCBCEA0178D8B75AB23A939E3D /* RobotPenDeviceFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RobotPenDeviceFunction.h; path = GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/RobotPenDeviceFunction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08A50E2708F17805FE0D620B0F1E8F0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				893008821192ABEBCD712A3B9D721FC7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1E2DFD51886C6DF7490C24384E207472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BCE4B0E1B2EC3BA17764631B220437D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB20681FA470048C9BFE649FF7347BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -135,6 +131,30 @@
 				96BD1B0E0FCEA077CA6809C7C52AA273 /* Pods_GGZIntegrationDylibPodProject_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBC25B9365043151F2657D0D0E5E022 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBB10FDE4B8DB0DC6D7DDEA5443E4F85 /* GGZIntegrationDylibPodProject.podspec */,
+				5A731D518F2231D314C1E2AC3DC33488 /* LICENSE */,
+				85D85F2AA4277802AB7A602DF2B48FDC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0E657CCC2BA01CAFD34EFF5546B8CA0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				570AD54676695F24627090CC5CB45D49 /* GGZIntegrationDylibPodProject.modulemap */,
+				0BD8BC95BF5C2CA8A4D583B8F28B551D /* GGZIntegrationDylibPodProject.xcconfig */,
+				BBF15FA010F580C7635C1B22F6827D88 /* GGZIntegrationDylibPodProject-dummy.m */,
+				F654EE5CA3EE992186F22593DA093C86 /* GGZIntegrationDylibPodProject-Info.plist */,
+				04B71F5AF435122A8B1339F6619751F5 /* GGZIntegrationDylibPodProject-prefix.pch */,
+				9D1F50B7618DDDBBE4151F63DEED6112 /* GGZIntegrationDylibPodProject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGZIntegrationDylibPodProject";
 			sourceTree = "<group>";
 		};
 		21F532FB49BCE1AD1268FACB0584C692 /* Pods-GGZIntegrationDylibPodProject_Example */ = {
@@ -154,20 +174,6 @@
 			path = "Target Support Files/Pods-GGZIntegrationDylibPodProject_Example";
 			sourceTree = "<group>";
 		};
-		2EE3B82D5BC4990FB8AD90DF817D90EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				31740ADB040DAC186E3F64CCD4450334 /* GGZIntegrationDylibPodProject.modulemap */,
-				69C1428A158603E0BF07A27ECF9C792B /* GGZIntegrationDylibPodProject.xcconfig */,
-				446D401582D1393289380E873D7EA5A9 /* GGZIntegrationDylibPodProject-dummy.m */,
-				9967634ECA02EEBC47A93F6B14F4E2CB /* GGZIntegrationDylibPodProject-Info.plist */,
-				F7915EECE901619EB3D65D39277C3E14 /* GGZIntegrationDylibPodProject-prefix.pch */,
-				68E13D92ABA5B26312E338E517106A49 /* GGZIntegrationDylibPodProject-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGZIntegrationDylibPodProject";
-			sourceTree = "<group>";
-		};
 		345C7C82823860E96DAE86313B272D6C /* Pods-GGZIntegrationDylibPodProject_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,37 +190,59 @@
 			path = "Target Support Files/Pods-GGZIntegrationDylibPodProject_Tests";
 			sourceTree = "<group>";
 		};
-		63331A2DB1BDB58F5EA8E2BDB100E22C /* RobotPenSDKHeader */ = {
+		54CA76A7A7C781A2EFC7F8698C68CA50 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				51C844B19B851802FF702E11B9E81E68 /* RobotNote.h */,
-				2DEAF21F422BEC7608D4F718D57FA8ED /* RobotPenDelegate.h */,
-				97C6A4036796A8A07863C4B9CF5A3145 /* RobotPenDevice.h */,
-				B7BBC5AFB79A59B27C506B210E2E2BFB /* RobotPenDeviceFunction.h */,
-				4815614F880394193B9CAEFC968F6A4D /* RobotPenHeader.h */,
-				1BDF0593E3C0A3BCD994F4E5061A0819 /* RobotPenManager.h */,
-				74C533DDF2046826A82804EB338A1713 /* RobotPenPoint.h */,
-				D4E259FBA59067A53B4C8D0A04BEE358 /* RobotPenUtilPoint.h */,
-				3B70CE0E104661B1FA64179D9710E0EB /* RobotSqlManager.h */,
-				5D86F44D9D54D5655C65EBD17C1D4DBA /* RobotTrailBlock.h */,
-				A95A3C129DBE06C2EB6F30E9327D2AC7 /* RobotTrails.h */,
-				B2EE26F7511FB377398F1C24593E5C0F /* RobotVideo.h */,
+				0B12AC509E3B342325177057F332BD77 /* libRobotPenSDK.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		5844820A980AB914F920856DD2A2B158 /* GGZIntegrationDylibPodProject */ = {
+			isa = PBXGroup;
+			children = (
+				8487A98A0FB0879CA712263A69597944 /* Frameworks */,
+				54CA76A7A7C781A2EFC7F8698C68CA50 /* Libs */,
+				0DBC25B9365043151F2657D0D0E5E022 /* Pod */,
+				5EF59148FC2327F0DA87BF50F84C6073 /* RobotPenSDKHeader */,
+				0E657CCC2BA01CAFD34EFF5546B8CA0D /* Support Files */,
+			);
+			name = GGZIntegrationDylibPodProject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E6F918A531E767D59BB19D99A7FD5EA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5844820A980AB914F920856DD2A2B158 /* GGZIntegrationDylibPodProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5EF59148FC2327F0DA87BF50F84C6073 /* RobotPenSDKHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BFDBF897235C43ADAC245AA039F85DE4 /* RobotNote.h */,
+				D6B844B5DEF5809668ED45A041EC252A /* RobotPenDelegate.h */,
+				BB328D24C976CE0820D3A187E877287A /* RobotPenDevice.h */,
+				FC1F43BCBCEA0178D8B75AB23A939E3D /* RobotPenDeviceFunction.h */,
+				9FCB6ADDDAAE0BD75190CEC38BC8E450 /* RobotPenHeader.h */,
+				F1E0C492D2B183CC3F8ECA06AC89D9F8 /* RobotPenManager.h */,
+				EED613FD067191CAE5E76F89F977569F /* RobotPenPoint.h */,
+				1A6D83372766573CDC7964047B3364EE /* RobotPenUtilPoint.h */,
+				AD87515F6A9B49594905964D090C2499 /* RobotSqlManager.h */,
+				EB10CA073339F6821D91192B19EA7ABE /* RobotTrailBlock.h */,
+				0E100310F993792029A1B64779A656B6 /* RobotTrails.h */,
+				468F9724A1E7564535E518EE406DE07A /* RobotVideo.h */,
 			);
 			name = RobotPenSDKHeader;
 			sourceTree = "<group>";
 		};
-		78AA5EBDB7271B49DC1476A0CFB417AF /* GGZIntegrationDylibPodProject */ = {
+		8487A98A0FB0879CA712263A69597944 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E648DA152CBB2C26AB8408B7AEE9A836 /* Core */,
-				AF26DA078B41FB774435A7B2308821E4 /* Frameworks */,
-				CFD9188382D1370A9E24341C1CA72702 /* Libs */,
-				AECF72946F1A1C69EA88D5B66B6C7CF4 /* Pod */,
-				63331A2DB1BDB58F5EA8E2BDB100E22C /* RobotPenSDKHeader */,
-				2EE3B82D5BC4990FB8AD90DF817D90EF /* Support Files */,
 			);
-			name = GGZIntegrationDylibPodProject;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8B7CC0147C43FB02E581A89AAC0C6C03 /* Targets Support Files */ = {
@@ -224,23 +252,6 @@
 				345C7C82823860E96DAE86313B272D6C /* Pods-GGZIntegrationDylibPodProject_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AECF72946F1A1C69EA88D5B66B6C7CF4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				57C1CBE613E0E6D0DF0B480577BBD144 /* GGZIntegrationDylibPodProject.podspec */,
-				A47FB5D26302323C284D8975FC6A5162 /* LICENSE */,
-				108C2604BCD64C5D30B747D9D9C6CABB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AF26DA078B41FB774435A7B2308821E4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -255,19 +266,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DF4A320D506384F7ECB6AE0D0451DEA7 /* Development Pods */,
+				5E6F918A531E767D59BB19D99A7FD5EA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				065FF2A101325E08AAE57174D13C64F5 /* Products */,
 				8B7CC0147C43FB02E581A89AAC0C6C03 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFD9188382D1370A9E24341C1CA72702 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				29E3C61D88B22AD0F9DEB094447395DA /* libRobotPenSDK.a */,
-			);
-			name = Libs;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -276,23 +279,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DF4A320D506384F7ECB6AE0D0451DEA7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				78AA5EBDB7271B49DC1476A0CFB417AF /* GGZIntegrationDylibPodProject */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E648DA152CBB2C26AB8408B7AEE9A836 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E5C8C7826D2C4574FAF58F730856A93 /* SCTRobotPencilParingManager.h */,
-				F990A9BB203E1B383AD47ECA8BAC03CA /* SCTRobotPencilParingManager.m */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,24 +292,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC25FE486AD45C205F32152B3549D956 /* Headers */ = {
+		9BBFF5A7C4F11DDBBF22CB06C16A76B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C16CED813BA3E7B59122899BFEFAF7 /* GGZIntegrationDylibPodProject-umbrella.h in Headers */,
-				D2B2DD599022FC2F3EBF490F98D95C69 /* RobotNote.h in Headers */,
-				190B9F17ECE49E5228A4770B5CD5D7BB /* RobotPenDelegate.h in Headers */,
-				2B63F7D7495D3282D8A320E29D6E496D /* RobotPenDevice.h in Headers */,
-				EE0CB8A703705F05E7BE9C4E4756CA46 /* RobotPenDeviceFunction.h in Headers */,
-				388C85CD35A4246FEB17147F6BC0FE4C /* RobotPenHeader.h in Headers */,
-				058F232640A9007069C2F4260A035A0F /* RobotPenManager.h in Headers */,
-				6ED380469778625FD369E41160140F7B /* RobotPenPoint.h in Headers */,
-				E0BA650A35BEFE50FAC015A0DCA365AF /* RobotPenUtilPoint.h in Headers */,
-				FBA42F12C69819F92A77C140666A9E6C /* RobotSqlManager.h in Headers */,
-				8F811AB44E784F5C250ED853F49C9EDC /* RobotTrailBlock.h in Headers */,
-				44EC42C40F3E32CFF542DE3164C7661E /* RobotTrails.h in Headers */,
-				75F56F7D9283D9D7864DB97FF82E5AAB /* RobotVideo.h in Headers */,
-				C236BC2564DEF53B901D9EB86A513C9A /* SCTRobotPencilParingManager.h in Headers */,
+				43D428E173F6F90424FAD69CD97B1FEC /* GGZIntegrationDylibPodProject-umbrella.h in Headers */,
+				67A9BDE8227EB592D57388F7DDB65345 /* RobotNote.h in Headers */,
+				7DE0DA5A366821C1AE1C8725214E9016 /* RobotPenDelegate.h in Headers */,
+				1E27DF30912453F583DA285B28D0ECFB /* RobotPenDevice.h in Headers */,
+				53653D5D7F54F251CAB5D7E28543B64D /* RobotPenDeviceFunction.h in Headers */,
+				93C5FD3BE869E4DCDEA940F9519B9CBF /* RobotPenHeader.h in Headers */,
+				F83DDA220DEF8C480DD03E38DA4BDDF0 /* RobotPenManager.h in Headers */,
+				E190D9C89770A1B72D0AB4F5351C9923 /* RobotPenPoint.h in Headers */,
+				DE46C9B2E263541AD899234C64D6A772 /* RobotPenUtilPoint.h in Headers */,
+				74056CCF6DF2467D2004FA3DCBC9C559 /* RobotSqlManager.h in Headers */,
+				436F51DA2B13DDA41C2F65B9E2880259 /* RobotTrailBlock.h in Headers */,
+				54DBE7318BD6706DFD4B4E9BC7AE70FE /* RobotTrails.h in Headers */,
+				951D72252FEFA1D181117E48A32C1769 /* RobotVideo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +325,12 @@
 /* Begin PBXNativeTarget section */
 		0DC7F72DE22F052C629BC376BE6688F3 /* GGZIntegrationDylibPodProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CFE68CF5CFDC945721CAECC604E6313 /* Build configuration list for PBXNativeTarget "GGZIntegrationDylibPodProject" */;
+			buildConfigurationList = A705AE2A00C655C32DC0B627CC30247E /* Build configuration list for PBXNativeTarget "GGZIntegrationDylibPodProject" */;
 			buildPhases = (
-				CC25FE486AD45C205F32152B3549D956 /* Headers */,
-				F1AD7C5937A01D9EDB2DDD17EA81638C /* Sources */,
-				08A50E2708F17805FE0D620B0F1E8F0A /* Frameworks */,
-				6F3C9568691892960045FA638FFCF4D3 /* Resources */,
+				9BBFF5A7C4F11DDBBF22CB06C16A76B9 /* Headers */,
+				ABC6B09F6AEC48D88E44D8848C3BE3C3 /* Sources */,
+				7BCE4B0E1B2EC3BA17764631B220437D /* Frameworks */,
+				44900AC3E374F82C5FD52512BACA7143 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -424,7 +409,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F3C9568691892960045FA638FFCF4D3 /* Resources */ = {
+		44900AC3E374F82C5FD52512BACA7143 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,21 +441,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABC6B09F6AEC48D88E44D8848C3BE3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF964C9FC81D17CEAE4681FFF561D726 /* GGZIntegrationDylibPodProject-dummy.m in Sources */,
+				0C5403210724DF98210DCC6CD498B7B9 /* libRobotPenSDK.a in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6D369DB71C6B1DD7D5AE2601C75DA2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEDE162F8946D020BC73CF3EDCA77BB1 /* Pods-GGZIntegrationDylibPodProject_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1AD7C5937A01D9EDB2DDD17EA81638C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C3EB8C12A6569724930D038EE0D8B13 /* GGZIntegrationDylibPodProject-dummy.m in Sources */,
-				6628AA42D7BC93322D9661183AB10AC7 /* libRobotPenSDK.a in Sources */,
-				F646F15D457D173B94779B1587BC77A2 /* SCTRobotPencilParingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,9 +574,9 @@
 			};
 			name = Debug;
 		};
-		2A13AB8307EF4F0F3E96929C38BFBCDD /* Release */ = {
+		441177613A8CC4EF379A15D1560AF46B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C1428A158603E0BF07A27ECF9C792B /* GGZIntegrationDylibPodProject.xcconfig */;
+			baseConfigurationReference = 0BD8BC95BF5C2CA8A4D583B8F28B551D /* GGZIntegrationDylibPodProject.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -617,11 +601,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		448AC3C5212D0CEF9BA0EEEDAA8FAE6B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -658,9 +641,9 @@
 			};
 			name = Release;
 		};
-		62FB3ECD8BB8F368B5B920759E19219B /* Debug */ = {
+		8B68C586BEDFFEE3F8C7698492C5425B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C1428A158603E0BF07A27ECF9C792B /* GGZIntegrationDylibPodProject.xcconfig */;
+			baseConfigurationReference = 0BD8BC95BF5C2CA8A4D583B8F28B551D /* GGZIntegrationDylibPodProject.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -685,10 +668,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		95C933DD4247FEE785267D610E8E60CD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -840,11 +824,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CFE68CF5CFDC945721CAECC604E6313 /* Build configuration list for PBXNativeTarget "GGZIntegrationDylibPodProject" */ = {
+		A705AE2A00C655C32DC0B627CC30247E /* Build configuration list for PBXNativeTarget "GGZIntegrationDylibPodProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62FB3ECD8BB8F368B5B920759E19219B /* Debug */,
-				2A13AB8307EF4F0F3E96929C38BFBCDD /* Release */,
+				441177613A8CC4EF379A15D1560AF46B /* Debug */,
+				8B68C586BEDFFEE3F8C7698492C5425B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

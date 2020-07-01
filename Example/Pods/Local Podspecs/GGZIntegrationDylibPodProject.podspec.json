@@ -1,6 +1,6 @@
 {
   "name": "GGZIntegrationDylibPodProject",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "A short description of GGZIntegrationDylibPodProject.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo",
@@ -13,26 +13,23 @@
   },
   "source": {
     "git": "https://github.com/GE-GAO-ZHAO/GGZPencilSDKDemo.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "public_header_files": "GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}",
   "libraries": "sqlite3.0",
   "vendored_libraries": "GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a",
   "requires_arc": true,
   "subspecs": [
     {
-      "name": "Libs",
-      "source_files": "GGZIntegrationDylibPodProject/Classes/Libs/*"
-    },
-    {
       "name": "RobotPenSDKHeader",
       "source_files": "GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/*.h"
     },
     {
-      "name": "Core",
-      "source_files": "GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}"
+      "name": "Libs",
+      "source_files": "GGZIntegrationDylibPodProject/Classes/Libs/*.a"
     }
   ]
 }
