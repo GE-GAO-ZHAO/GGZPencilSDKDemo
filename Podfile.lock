@@ -1,11 +1,5 @@
 PODS:
-  - GGZIntegrationDylibPodProject (1.0.0):
-    - GGZIntegrationDylibPodProject/Core (= 1.0.0)
-    - GGZIntegrationDylibPodProject/Libs (= 1.0.0)
-    - GGZIntegrationDylibPodProject/RobotPenSDKHeader (= 1.0.0)
-  - GGZIntegrationDylibPodProject/Core (1.0.0)
-  - GGZIntegrationDylibPodProject/Libs (1.0.0)
-  - GGZIntegrationDylibPodProject/RobotPenSDKHeader (1.0.0)
+  - GGZIntegrationDylibPodProject (3.0.0)
 
 DEPENDENCIES:
   - GGZIntegrationDylibPodProject (from `../`)
@@ -15,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGZIntegrationDylibPodProject: 07099712a4545e121c9d25401144eee1d761b34a
+  GGZIntegrationDylibPodProject: 0c4fadc49243e7689e20d370c4534b10b7081de5
 
 PODFILE CHECKSUM: 64fc3473d5b79c14c7da201cd14970bcff710880
 

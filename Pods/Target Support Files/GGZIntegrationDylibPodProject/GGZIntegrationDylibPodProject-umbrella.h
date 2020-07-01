@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "SCTRobotPencilParingManager.h"
 #import "RobotNote.h"
 #import "RobotPenDelegate.h"
 #import "RobotPenDevice.h"
@@ -23,6 +22,7 @@
 #import "RobotTrailBlock.h"
 #import "RobotTrails.h"
 #import "RobotVideo.h"
+#import "SCTRobotPencilParingManager.h"
 
 FOUNDATION_EXPORT double GGZIntegrationDylibPodProjectVersionNumber;
 FOUNDATION_EXPORT const unsigned char GGZIntegrationDylibPodProjectVersionString[];
