@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'GGZIntegrationDylibPodProject'
-    s.version          = '1.0.2'
+    s.version          = '3.0.0'
     s.summary          = 'A short description of GGZIntegrationDylibPodProject.'
     
     # This description is used to generate tags and improve search results.
@@ -29,22 +29,14 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '10.0'
-    
-    s.subspec 'RobotPenSDKHeader' do |ss2|
-        ss2.source_files  = 'GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/*.h'
-    end
 
-    s.subspec 'Libs' do |ss1|
-        ss1.source_files  = 'GGZIntegrationDylibPodProject/Classes/Libs/*.a'
-    end
-    
-    s.public_header_files = 'GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}'
-    
+    s.source_files  = "GGZIntegrationDylibPodProject/Classes/RobotPenSDKHeader/*.h","GGZIntegrationDylibPodProject/Classes/Core/*.{h,m}"
+
     # system tbd
     s.libraries = 'sqlite3.0'
     
-    # .a
-    s.vendored_libraries = 'GGZIntegrationDylibPodProject/Classes/Libs/libRobotPenSDK.a'
+    # .a 不需要再使用 s.source_files 引入啦
+    s.vendored_libraries = 'GGZIntegrationDylibPodProject/Classes/libRobotPenSDK.a'
     
     # arc
     s.requires_arc = true
